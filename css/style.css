@@ -59,22 +59,29 @@ body{
 	color: #262626;
 	font-size: 12px;
 	font-family: Verdana, Geneva, sans-serif;
-	background: url(../img/repeat.jpg) center top repeat;
-
+	background-color: #71ae92;
 }
 
 /*** HOME ***/
 .bg-home{
 	width: 100%;
-	display: table;
 	background: #e5e5e5 url(../img/bghome.jpg) center top no-repeat;
 }
-#wrap{ width: 960px; margin: 0 auto;}
 header{
-	width: 327px;
+	width: 961px;
+	height: 142px;
+	margin: 0 auto;
+}
+header h1{
+	width: 223px;
+	height: 129px;
+	float: left;
+	padding-top: 13px;
+}
+header h1 a{
+	width: 200px;
 	height: 119px;
-	float: right;
-	padding: 9px 0 0 417px;
+	background-image: url(../img/logo.png); 
 }
 #google_translate_element, #google_translate_element img{ float: left;}
 .goog-te-gadget-simple{ width: 173px;}
@@ -88,21 +95,59 @@ header .tel{
 }
 header .tel{ padding: 5px 0 0 27px; background: url(../img/icontel.png) 0 3px no-repeat;}
 header .tel span{ font-size: 13px;}
-aside{
-	width: 215px;
-	float: left;
-	margin-bottom: 30px;
-	position: relative;
-	z-index: 99999999999999;
-}
-aside h1{
-	width: 200px;
-	height: 119px;
-	padding: 20px 0 57px 15px;
-}
-aside h1 a{
-	width: 200px;
-	height: 119px;
-	background-image: url(../img/logo.png);
-	outline: 0;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#content{ width: 961px; margin: 0 auto;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
