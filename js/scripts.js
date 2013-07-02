@@ -2,11 +2,10 @@ $(document).ready(function(){
 	$("a[rel=external]").attr('target','_blank');
 });
 
-jQuery(document).ready(function(){
-    jQuery('head').append('<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />')
+$(document).ready(function(){
+    $('head').append('<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />')
 });
 
-// Slide home
 $(function(){
     // Set starting slide to 1
     var startSlide = 1;
@@ -23,33 +22,33 @@ $(function(){
         pause: 2500,
         hoverPause: true,
         // Get the starting slide
-        start: startSlide,
-        effect: 'fade'
+        start: startSlide
     });
 });
 
-jQuery(document).ready(function() {
-    var menus = jQuery('#navMenu li');
+$(document).ready(function() {
+    $(".sub").hide();
+    var menus = $('#navMenu li');
     menus.on('mouseenter keyup mouseleave keydown',function(e) {
         clearTimeout($.data(this, 'timer'));
         if(e.type == 'mouseenter' || e.type == 'keyup'){
-            if(jQuery(this).find('ul').hasClass('sub-nav')){
-                jQuery(this).find('a').eq(0).addClass('current-menu');
+            if($(this).find('ul').hasClass('sub')){
+                $(this).find('a').eq(0).addClass('current-menu');
             }
         $.data(this, 'timer', setTimeout($.proxy(function() {
-            jQuery('.sub-nav', this).stop(true, true).fadeIn('slow');
+            $('.sub', this).stop(true, true).fadeIn('slow');
         }, this), 100));
             
         } else if(e.type == 'mouseleave'){
-            jQuery(this).find('a').eq(0).removeClass('current-menu');
-            jQuery('.sub-nav', this).stop(true, true).fadeOut();
+            $(this).find('a').eq(0).removeClass('current-menu');
+            $('.sub', this).stop(true, true).fadeOut();
 
         } else if(e.type == 'keydown'){
-            var totalLi = jQuery(this).find('.sub-nav li');
+            var totalLi = $(this).find('.sub li');
             var qtLi = totalLi.length-1;
-            jQuery(this).find('a').eq(0).removeClass('current-menu');
-            jQuery(this).find('.sub-nav li').eq(qtLi).focusout(function(){
-                jQuery('.sub-nav').stop(true, true).fadeOut('slow');
+            $(this).find('a').eq(0).removeClass('current-menu');
+            $(this).find('.sub li').eq(qtLi).focusout(function(){
+                $('.sub').stop(true, true).fadeOut('slow');
             });
         }
     });
@@ -80,10 +79,12 @@ $(document).ready(function() {
 
 // Link box-pdr
 $(document).ready(function(){                  
-    $(".slide div, .box-produto, .confira-produto, .lista-produtos li, .noticia").click(function(){
+    $(".lancamentos, .produtos li").click(function(){
         window.location=$(this).find("a").attr("href");return false;
     });
 });
+
+$(".produtos li:nth-child(4n)").addClass("sem-mrg-right");
 
 // translate
 function googleTranslateElementInit() {
