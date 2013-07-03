@@ -19,17 +19,17 @@
                 <li><a href="empresa.php" title="Empresa" <?php if($url == "empresa.php"){echo "class='ativo'";} ?>>Empresa</a></li>
 
                 <li>
-                    <a href="produtos.php" title="Produtos" <?php if($url == "produtos.php"){echo "class='ativo'";} ?>>Produtos</a>
+                    <a href="produtos.php" title="Produtos" <?php if($url == "produtos.php" or $url == "produto-interna.php" or $url == "produto-detalhe.php"){echo "class='ativo'";} ?>>Produtos</a>
                     <ul class="sub">
-                        <li><a href="iluminacao-publica.php" title="Iluminação Pública" class="link">Iluminação Pública</a></li>
-                        <li><a href="reator.php" title="Reator" class="link">Reator</a></li>
-                        <li><a href="iluminacao-industrial.php" title="Iluminação Industrial" class="link">Iluminação Industrial</a></li>
-                        <li><a href="portico-estruturas-metalicas.php" title="Estruturas Metálicas" class="link">Portico/Estruturas Metálicas</a></li>
-                        <li><a href="iluminacao-especifica.php" title="Iluminação Específica" class="link">Iluminação Específica</a></li>
-                        <li><a href="linha-led-drives.php" title="Linha LED" class="link">Linha LED/Drives</a></li>
-                        <li><a href="iluminacao-decorativa.php" title="Iluminação Decorativa" class="link">Iluminação Decorativa</a></li>
-                        <li><a href="lancamentos.php" title="Lançamentos" class="link">Lançamentos</a></li>
-                        <li><a href="poste.php" title="Poste" class="link">Poste</a></li>
+                        <li><a href="produto-interna.php" title="Iluminação Pública" class="link">Iluminação Pública</a></li>
+                        <li><a href="produto-interna.php" title="Reator" class="link">Reator</a></li>
+                        <li><a href="produto-interna.php" title="Iluminação Industrial" class="link">Iluminação Industrial</a></li>
+                        <li><a href="produto-interna.php" title="Estruturas Metálicas" class="link">Portico/Estruturas Metálicas</a></li>
+                        <li><a href="produto-interna.php" title="Iluminação Específica" class="link">Iluminação Específica</a></li>
+                        <li><a href="produto-interna.php" title="Linha LED" class="link">Linha LED/Drives</a></li>
+                        <li><a href="produto-interna.php" title="Iluminação Decorativa" class="link">Iluminação Decorativa</a></li>
+                        <li><a href="produto-interna.php" title="Lançamentos" class="link">Lançamentos</a></li>
+                        <li><a href="produto-interna.php" title="Poste" class="link">Poste</a></li>
                     </ul>
                 </li>
 

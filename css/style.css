@@ -286,20 +286,260 @@ header .tel span{ font-size: 13px;}
 .trabalhe p{ font-family: 'opens', sans-serif;}
 
 /* EMPRESA */
+.bg-int{
+	width: 100%;
+	display: table;
+	background: #e9e9e9 url(../img/bgint.jpg) center top no-repeat;
+}
+header .logo{
+	width: 223px;
+	height: 129px;
+	float: left;
+	padding: 13px 0 0 0;
+}
+header .logo a{ width: 200px; height: 119px;}
+.cont-right{
+	width: 718px;
+	float: right;
+	position: relative;
+}
+.nav-empresa{
+	width: 100%;
+	height: 48px;
+	float: left;
+	margin-bottom: 15px;
+	background: url(../img/sombramenu.jpg) left bottom no-repeat;
+}
+.nav-empresa li{ float: left; padding-right: 5px;}
+.nav-empresa li a{
+	width: 167px;
+	height: 27px;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+	background-color: #e1e1e1;
+	text-align: center;
+	font-size: 16px;
+	font-family: 'opens', sans-serif;
+	padding-top: 6px;
+}
+.nav-empresa li a:hover, .nav-empresa li a:focus, .nav-empresa li.active a{
+	color: #fafafa; background: url(../img/repeatnav.jpg) center top repeat-x;}
+.confira-produto{
+	width: 260px;
+	height: 88px;
+	padding: 27px 0 40px 157px;
+	margin: 0 auto;
+	cursor: pointer;
+	clear: both;
+	background: url(../img/bgprod.jpg) 0 0 no-repeat;
+}
+.confira-produto a{ color: #006231; font-size: 15px;}
+.confira-produto p{
+	width: 146px;
+	height: 21px;
+	margin: 10px 0 0 20px;
+	padding: 3px 0 0 0;
+	font-size: 14px;
+	color: #006231;
+	font-family: 'openr', sans-serif;
+	text-align: center;
+	background: url(../img/btport.jpg) left top no-repeat;
+}
+.confira-produto:hover p, .confira-produto:focus p{
+	color: #fafafa; background: url(../img/btport.jpg) left bottom no-repeat;}
+.lista{ padding-bottom: 10px;}
+.lista li{
+	padding: 0 0 7px 8px;
+	line-height: 18px;
+	background: url(../img/ballgray.jpg) 0 6px no-repeat;
+}
+.galeria{
+	width: 718px;
+	display: block;
+	float: left;
+	padding-bottom: 15px;
+}
+.galeria h2{
+	width: 66px;
+	height: 92px;
+	float: left;
+	font-size: 14px;
+	font-family: 'opens', sans-serif;
+	text-align: right;
+	padding: 40px 20px 0 0;
+	background: url(../img/seta.jpg) right 20px no-repeat;
+}
+.galeria ul{ width: 629px; float: left;}
+.galeria ul li{
+	width: 114px;
+	height: 127px;
+	float: left;
+	padding-left: 11px;
+}
+.galeria ul li a{ width: 114px; height: 86px;}
+.galeria ul li span{
+	width: 114px;
+	height: 23px;
+	display: block;
+	color: #fafafa;
+	text-align: center;
+	font-family: 'Verdana', sans-serif;
+	font-size: 11px;
+	padding-top: 5px;
+	background-color: #006231;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+aside{ width: 215px; float: left;}
+aside p{
+	width: 215px;
+	height: 39px;
+	padding: 15px 0 0 0;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+	font-size: 20px;
+	font-family: 'opens', sans-serif;
+	font-weight: 600;
+	text-align: center;
+	color: #fafafa;
+	background: url(../img/repeatprod.jpg) center top repeat-x;
+}
+aside nav{ width: 215px; background: url(../img/repeataside.jpg) center top repeat-y;}
+aside nav ul{
+	width: 215px;
+	padding: 20px 0 82px 0;
+	background: url(../img/bottom.jpg) center bottom no-repeat;
+}
+aside nav ul li{
+	width: 175px;
+	margin: 0 auto;
+	padding-bottom: 5px;
+}
+aside nav ul li a{
+	width: 175px;
+	height: 25px;
+	text-align: center;
+	color: #006231;
+	font-size: 14px;
+	font-family: 'opens', sans-serif;
+	padding-top: 7px;
+	background-image: url(../img/btnav.png); 
+}
+aside nav ul li a[title="Estruturas Metálicas"]{ height: 39px; background-image: url(../img/btnav1.png); }
+aside nav ul li a:hover, aside nav ul li a:focus, aside nav ul li a.ativo{ color: #fafafa; background-position: left bottom;}
+aside img{ padding: 0 0 30px 7px;}
 
+/* PRODUTOS */
+#content .cont-right h1{ padding-bottom: 15px;}
+a[title="Voltar"]{
+	width: 92px;
+	height: 24px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	background-image: url(../img/btvoltar.jpg); 
+}
+.lista-produtos{
+	width: 718px;
+	float: left;
+	padding-bottom: 15px;
+}
+.lista-produtos li{
+	width: 128px;
+	height: 204px;
+	float: left;
+	margin: 0 35px 20px 0;
+	border-radius: 6px;
+	border: 1px solid #c5c5c5;
+	padding: 11px 11px 0 11px;
+	text-align: center;
+	font-size: 11px;
+	cursor: pointer;
+}
+.lista-produtos li img{ border: 1px solid #c5c5c5; margin-bottom: 7px;}
+.lista-produtos li a{ height: 41px;}
+.lista-produtos li p{
+	width: 113px;
+	height: 18px;
+	display: block;
+	padding: 2px 0 0 0;
+	margin: 0 auto;
+	color: #FFF;
+	font-size: 13px;
+	font-family: 'openr', sans-serif;
+	background: url(../img/btdeta.jpg) 0 0 no-repeat;
+}
+.lista-produtos li:hover p{ background-position: 0 -20px;}
 
-
-
-
-
-
-
-
-
-
-
-
-
+/* PRODUTO DETALHE */
+#bread{
+	color: #006231;
+	height: 40px;
+	padding-top: 5px;
+}
+.fotos{
+	width: 231px;
+	height: 303px;
+	float: left;
+	border: 2px solid #006231;
+	margin: 0 25px 10px 0;
+	background-color: #FFF;
+}
+.img-grande{
+	width: 231px;
+	height: 233px;
+	border-bottom: 2px solid #006231;
+	/*vertical-align: middle;
+    display: table-cell;*/
+}
+/*#content .img-grande img{ margin: 0 auto; display: table-cell;}*/
+.jcarousel-skin-fotos .jcarousel-container { width: 197px; padding: 8px 0 0 34px;}
+.jcarousel-skin-fotos .jcarousel-clip { width: 197px; overflow: hidden;}
+.jcarousel-skin-fotos .jcarousel-clip-horizontal  { width: 171px;}
+.jcarousel-skin-fotos .jcarousel-item {
+	width: 45px;
+	height: 45px;
+	display: block;
+    float: left;
+    margin-right: 8px;
+    border: 2px solid #006231;
+}
+.jcarousel-skin-fotos .jcarousel-next-horizontal {
+    width: 15px;
+    height: 25px;
+    position: absolute;
+    right: 10px;
+    top: 19px;
+    cursor: pointer;
+    background-image: url(../img/next.jpg);
+}
+.jcarousel-skin-fotos .jcarousel-prev-horizontal {
+    width: 15px;
+    height: 25px;
+    position: absolute;
+    left: 10px;
+    top: 19px;
+    cursor: pointer;
+    background-image: url(../img/prev.jpg);
+}
+.jcarousel-skin-fotos .jcarousel-prev-horizontal:hover, 
+.jcarousel-skin-fotos .jcarousel-next-horizontal:hover{ 
+	background-position:left bottom;}
+.jcarousel-skin-fotos .jcarousel-next-disabled-horizontal,
+.jcarousel-skin-fotos .jcarousel-next-disabled-horizontal:hover,
+.jcarousel-skin-fotos .jcarousel-next-disabled-horizontal:focus,
+.jcarousel-skin-fotos .jcarousel-next-disabled-horizontal:active { 
+	cursor: default;
+	opacity: 0.5;
+	background: url(../img/next.jpg) left top no-repeat;}
+.jcarousel-skin-fotos .jcarousel-prev-disabled-horizontal,
+.jcarousel-skin-fotos .jcarousel-prev-disabled-horizontal:hover,
+.jcarousel-skin-fotos .jcarousel-prev-disabled-horizontal:focus,
+.jcarousel-skin-fotos .jcarousel-prev-disabled-horizontal:active { 
+	cursor: default;
+	opacity: 0.5;
+	background:  url(../img/prev.jpg) left top no-repeat;}
+.cont-bottom{ width: 718px; float: left;}
 
 
 

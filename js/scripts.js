@@ -79,12 +79,12 @@ $(document).ready(function() {
 
 // Link box-pdr
 $(document).ready(function(){                  
-    $(".lancamentos, .produtos li").click(function(){
+    $(".lancamentos, .produtos li, .lista-produtos li").click(function(){
         window.location=$(this).find("a").attr("href");return false;
     });
 });
 
-$(".produtos li:nth-child(4n)").addClass("sem-mrg-right");
+$(".produtos li:nth-child(4n), .lista-produtos li:nth-child(4n)").addClass("sem-mrg-right");
 
 // translate
 function googleTranslateElementInit() {
