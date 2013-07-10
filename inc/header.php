@@ -35,13 +35,13 @@
 
                 <li><a href="portfolio.php" title="Portolio" <?php if($url == "portfolio.php"){echo "class='ativo'";} ?>>Portolio</a></li>
 
-                <li><a href="noticias.php" title="Notícias" <?php if($url == "noticias.php"){echo "class='ativo'";} ?>>Notícias</a></li>
+                <li><a href="noticias.php" title="Notícias" <?php if($url == "noticias.php" or $url == "noticia-interna.php"){echo "class='ativo'";} ?>>Notícias</a></li>
 
                 <li><a href="representantes.php" title="Representantes" <?php if($url == "representantes.php"){echo "class='ativo'";} ?>>Representantes</a></li>
 
                 <li><a href="clientes.php" title="Clientes" <?php if($url == "clientes.php"){echo "class='ativo'";} ?>>Clientes</a></li>
 
-                <li class="pdg-right"><a href="contato.php" title="Contato" <?php if($url == "contato.php"){echo "class='ativo'";} ?>>Contato</a></li>
+                <li class="pdg-right"><a href="contato.php" title="Contato" <?php if($url == "contato.php" or $url =="resposta-contato.php"){echo "class='ativo'";} ?>>Contato</a></li>
             </ul>
         </nav>
     </header><!-- FINAL HEADER -->

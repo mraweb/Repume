@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /resposta-contato.php
+Disallow: /novo/
+Disallow: /novo2/
+Disallow: /novo3/

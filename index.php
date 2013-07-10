@@ -47,7 +47,7 @@
         <section class="lancamentos">
             <h2>Lançamento REPUME:</h2>
 
-            <img src="img/foto.jpg" alt="Nome do Produto" widht="269" height="152" />
+            <img src="img/foto.jpg" alt="Nome do Produto" width="269" height="152" />
 
             <a href="lancamentos.php" title="Confira">Confira</a>
         </section><!-- FINAL LANCAMENTOS -->
@@ -57,49 +57,49 @@
                 <li>
                     <img src="img/iluminacao-publica.jpg" alt="Iluminação Pública" width="225" height="113" />
 
-                    <a href="iluminacao-publica.php" title="Iluminação Pública">Iluminação Pública</a>
+                    <a href="produto-interna.php" title="Iluminação Pública">Iluminação Pública</a>
                 </li>
 
                 <li>
                     <img src="img/iluminacao-industrial.jpg" alt="Iluminação Industrial" width="225" height="113" />
 
-                    <a href="iluminacao-industrial.php" title="Iluminação Industrial">Iluminação Industrial</a>
+                    <a href="produto-interna.php" title="Iluminação Industrial">Iluminação Industrial</a>
                 </li>
 
                 <li>
                     <img src="img/iluminacao-especifica.jpg" alt="Iluminação Específica" width="225" height="113" />
 
-                    <a href="iluminacao-especifica.php" title="Iluminação Específica">Iluminação Específica</a>
+                    <a href="produto-interna.php" title="Iluminação Específica">Iluminação Específica</a>
                 </li>
 
                 <li>
                     <img src="img/iluminacao-decorativa.jpg" alt="Iluminação Decorativa" width="225" height="113" />
 
-                    <a href="iluminacao-decorativa.php" title="Iluminação Decorativa">Iluminação Decorativa</a>
+                    <a href="produto-interna.php" title="Iluminação Decorativa">Iluminação Decorativa</a>
                 </li>
 
                 <li>
                     <img src="img/poste.jpg" alt="Poste/Braço" width="225" height="113" />
 
-                    <a href="poste.php" title="Poste/Braço">Poste/Braço</a>
+                    <a href="produto-interna.php" title="Poste/Braço">Poste/Braço</a>
                 </li>
 
                 <li>
                     <img src="img/reator.jpg" alt="Reator" width="225" height="113" />
 
-                    <a href="reator.php" title="Reator">Reator</a>
+                    <a href="produto-interna.php" title="Reator">Reator</a>
                 </li>
 
                 <li>
                     <img src="img/portico-estruturas-metalicas.jpg" alt="Portico/Estruturas Metálicas" width="225" height="113" />
 
-                    <a href="portico-estruturas-metalicas.php" title="Portico/Estruturas Metálicas">Portico/Estruturas Metálicas</a>
+                    <a href="produto-interna.php" title="Portico/Estruturas Metálicas">Portico/Estruturas Metálicas</a>
                 </li>
 
                 <li>
                     <img src="img/linha-led-drives.jpg" alt="Linha LED/Drivers" width="225" height="113" />
 
-                    <a href="linha-led-drives.php" title="Linha LED/Drivers">Linha LED/Drivers</a>
+                    <a href="produto-interna.php" title="Linha LED/Drivers">Linha LED/Drivers</a>
                 </li>
             </ul>
         </nav><!-- FINAL NAV PRODUTOS -->
@@ -109,7 +109,7 @@
 
             <img src="img/selo.jpg" alt="30 Anos Repume Iluminação" width="374" height="74" class="left selo-repume" />
 
-            <section class="trabalhe">
+            <section class="trabalhe-home">
                 <h3><a href="contato.php" title="Trabalhe Conosco" class="link">Trabalhe Conosco</a></h3>
 
                 <p>Confira as últimas vagas</p>

@@ -53,7 +53,7 @@
 
                 <li>
                     <img src="img/iluminacao-decorativa1.jpg" alt="Iluminação Decorativa" width="128" height="109" />
-                    <a href="produto-interna.php"itle="Iluminação Decorativa">Iluminação Decorativa</a>
+                    <a href="produto-interna.php" title="Iluminação Decorativa">Iluminação Decorativa</a>
                     <p>Confira &raquo;</p>
                 </li>
 

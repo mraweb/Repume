@@ -79,12 +79,21 @@ $(document).ready(function() {
 
 // Link box-pdr
 $(document).ready(function(){                  
-    $(".lancamentos, .produtos li, .lista-produtos li").click(function(){
+    $(".lancamentos, .produtos li, .lista-produtos li, .noticia").click(function(){
         window.location=$(this).find("a").attr("href");return false;
     });
 });
 
 $(".produtos li:nth-child(4n), .lista-produtos li:nth-child(4n)").addClass("sem-mrg-right");
+
+$(".padrao li a img").on("click", function(e){
+    e.preventDefault();
+    var imagem = $(this).attr("src");
+    var titulo = $(this).attr("title");
+
+    $(".recebe").attr("src", imagem);
+    $(".recebe").attr("title", titulo);
+})
 
 // translate
 function googleTranslateElementInit() {
@@ -129,7 +138,7 @@ function mudaImg(objDestino,novaImg,texto,numeracao){
 }
 
 // select da pag distribuidores
+$('.box-padrao').hide();
 $('#selecione').change(function(){
-        $('.box-padrao').hide();
         $('#' + $(this).val()).show();
  });

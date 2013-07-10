@@ -33,25 +33,27 @@
             <div class="cont-top">
                 <div class="fotos">
                     <div class="img-grande">
-                        <img src="img/quadrado.jpg" alt="Imagem Quadrada" width="231" height="233" />
+                        <img src="img/retangular.jpg" alt="Imagem Retangular" width="231" height="233" class="recebe" />
                     </div>
 
                     <ul class="jcarousel-skin-fotos padrao">
-                        <li><a href="#" title="Imagem Retangular"><img src="img/retangular.jpg" alt="Imagem Retangular" width="45" height="45" /></a></li>
+                        <li><a href="#" title="Imagem Retangular" data-foto="foto-01"><img src="img/retangular.jpg" alt="Imagem Retangular" width="45" height="45" /></a></li>
 
-                        <li><a href="#" title="Imagem Quadrada"><img src="img/quadrado.jpg" alt="Imagem Quadrada" width="45" height="45" /></a></li>
+                        <li><a href="#" title="Imagem Quadrada" data-foto="foto-02"><img src="img/quadrado.jpg" alt="Imagem Quadrada" width="45" height="45" /></a></li>
 
-                        <li><a href="#" title="Imagem Vertical"><img src="img/vertical.jpg" alt="Imagem Vertical" width="45" height="45" /></a></li>
+                        <li><a href="#" title="Imagem Vertical" data-foto="foto-03"><img src="img/vertical.jpg" alt="Imagem Vertical" width="45" height="45" /></a></li>
 
-                        <li><a href="#" title="Imagem Retangular"><img src="img/retangular.jpg" alt="Imagem Retangular" width="45" height="45" /></a></li>
+                        <li><a href="#" title="Imagem Retangular" data-foto="foto-04"><img src="img/retangular.jpg" alt="Imagem Retangular" width="45" height="45" /></a></li>
 
-                        <li><a href="#" title="Imagem Quadrada"><img src="img/quadrado.jpg" alt="Imagem Quadrada" width="45" height="45" /></a></li>
+                        <li><a href="#" title="Imagem Quadrada" data-foto="foto-05"><img src="img/quadrado.jpg" alt="Imagem Quadrada" width="45" height="45" /></a></li>
 
-                        <li><a href="#" title="Imagem Vertical"><img src="img/vertical.jpg" alt="Imagem Vertical" width="45" height="45" /></a></li>
+                        <li><a href="#" title="Imagem Vertical" data-foto="foto-06"><img src="img/vertical.jpg" alt="Imagem Vertical" width="45" height="45" /></a></li>
                     </ul>
                 </div>
 
-                <a href="contato" title="Entre em Contato">Solicite Atendimento, Entre em Contato &raquo;</a>
+                <a href="contato.php" title="Solicite Atendimento">Solicite Atendimento, Entre em Contato &raquo;</a>
+
+                <p><strong>Código: </strong> DI-960</p>
 
                 <p><strong>Descrição:</strong> Com um Design inovador, a linha de luminárias públicas Surya possui alto rendimento uminotécnico e, um alto grau de proteção contra penetração de água e objetos sólidos, aumentando a vida útil do produto e de seus equipamentos.</p>
 
@@ -79,6 +81,12 @@
 
                 <p><strong>Nota</strong><br />
                 Utilização de lâmpada MVM somente com filtro U.V.</p>
+
+                <ul class="nav-bottom">
+                    <li><a href="#" title="Lâmpadas Utilizadas" class="hidetxt">Lâmpadas Utilizadas</a></li>
+                    <li><a href="#" title="Especificações Técnicas" class="hidetxt">Especificações Técnicas</a></li>
+                    <li class="sem-mrg-right"><a href="contato.php" title="Entre em Contato" class="hidetxt">Entre em Contato</a></li>
+                </ul>
             </div>
         </div><!-- FINAL CONT-RIGHT -->
 
@@ -90,17 +98,8 @@
 
 <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/jquery-1.8.2.min.js"><\/script>')</script>
-
 <script type="text/javascript" src="js/slides.min.jquery.js"></script>
 <script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
-<script type="text/javascript">
-// caroussel
-jQuery(document).ready(function() {
-    jQuery('.padrao').jcarousel({
-        scroll:1
-    });
-});
-</script>
 <script type="text/javascript" src="js/scripts.js"></script>
 <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </body>

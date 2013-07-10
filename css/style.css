@@ -17,13 +17,11 @@ h1, h2, h3, h4{
 	font-weight: normal;
 	font-family: 'opens', sans-serif;
 	font-size: 18px;
-	outline: none;
 }
 a, h1, h2, h3, h4, article, aside, dialog, figure, footer, header, hgroup, nav, section, blockquote, label { display: block;}
 a{
 	text-decoration: none;
 	color: #262626;
-	outline: none;
 }
 a:hover, a:focus{ background-position:left bottom;}
 a.ativo{ background-position:left bottom;}
@@ -234,13 +232,10 @@ header .tel span{ font-size: 13px;}
 	font-size: 16px;
 	font-family: 'opens', sans-serif;
 	padding: 10px 0 0 55px;
-	background-image: url(../img/btconf.jpg); 
+	background-image: url(../img/btconf1.jpg); 
 }
 .lancamentos:hover a, .lancamentos:focus a{ background-position: left bottom;}
-.produtos{
-	width: 961px;
-	float: left;
-}
+.produtos{ width: 961px; float: left;}
 .produtos li{
 	width: 225px;
 	height: 184px;
@@ -273,17 +268,17 @@ header .tel span{ font-size: 13px;}
 }
 .bt-repr a{ font-size: 18px; font-family: 'opens', sans-serif;}
 .bt-repr a span{ text-transform: uppercase; color: #006231;}
-.trabalhe{
+.trabalhe-home{
 	width: 156px;
 	height: 73px;
 	float: right;
 }
-.trabalhe h3 a{
+.trabalhe-home h3 a{
 	text-transform: uppercase;
 	color: #006231;
 	font-size: 20px;
 }
-.trabalhe p{ font-family: 'opens', sans-serif;}
+.trabalhe-home p{ font-family: 'opens', sans-serif;}
 
 /* EMPRESA */
 .bg-int{
@@ -474,7 +469,7 @@ a[title="Voltar"]{
 /* PRODUTO DETALHE */
 #bread{
 	color: #006231;
-	height: 40px;
+	height: 30px;
 	padding-top: 5px;
 }
 .fotos{
@@ -540,14 +535,314 @@ a[title="Voltar"]{
 	opacity: 0.5;
 	background:  url(../img/prev.jpg) left top no-repeat;}
 .cont-bottom{ width: 718px; float: left;}
+a[title="Solicite Atendimento"]{
+	width: 305px;
+	height: 26px;
+	float: left;
+	border-radius: 7px;
+	padding: 6px 10px 0 10px;
+	color: #fafafa;
+	font-size: 14px;
+	font-family: 'opens', sans-serif;
+	text-align: center;
+	margin: 0 100px 20px 0;
+	background: url(../img/repeatsoli.jpg) center top repeat-x;
+}
+a:hover[title="Solicite Atendimento"], a:focus[title="Solicite Atendimento"]{ 
+	background-position: center bottom;}
+.nav-bottom{
+	width: 715px;
+	height: 100px;
+	float: left;
+}
+.nav-bottom li{
+	width: 235px;
+	height: 28px;
+	float: left;
+	margin-right: 4px;
+}
+.nav-bottom li a{
+	width: 235px;
+	height: 28px;
+	background-image: url(../img/navbottom.jpg); 
+}
+.nav-bottom li a[title="Lâmpadas Utilizadas"]{
+	background-position: 0 0;
+}
+.nav-bottom li a:hover[title="Lâmpadas Utilizadas"], .nav-bottom li a:focus[title="Lâmpadas Utilizadas"]{
+	background-position: 0 -28px;
+}
+.nav-bottom li a[title="Especificações Técnicas"]{
+	background-position: -239px 0;
+}
+.nav-bottom li a:hover[title="Especificações Técnicas"], .nav-bottom li a:focus[title="Especificações Técnicas"]{
+	background-position: -239px -28px;
+}
+.nav-bottom li a[title="Entre em Contato"]{
+	background-position: -479px 0;
+}
+.nav-bottom li a:hover[title="Entre em Contato"], .nav-bottom li a:focus[title="Entre em Contato"]{
+	background-position: -479px -28px;
+}
 
+/* PORTFOLIO */
+#accordion div{ padding-bottom: 5px;}
+#accordion div h2 a{
+	width: 695px;
+	height: 27px;
+	color: #006231;
+	font-size: 18px;
+	padding: 5px 0 0 20px;
+	margin-bottom: 10px;
+	background: url(../img/btconf.jpg) 0 0 no-repeat;
+}
+#accordion div h2.ui-state-active a, #accordion div h2 a:hover, #accordion div h2 a:focus{ color: #FFF; background-position: 0 -32px;}
+.gallery{ display: table;}
+.gallery li{ float: left; padding: 0 28px 15px 0;}
 
+/* NOTICIAS */
+.noticia{
+	width: 715px;
+	float: left;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+.noticia h2{
+	font-size: 14px;
+	border-bottom: 2px solid #929393;
+	padding-bottom: 10px;
+	margin-bottom: 7px;
+}
+.noticia h2 a{ color: #006231;}
+.noticia p{ padding-bottom: 0;}
+.noticia span{
+	width: 82px;
+	height: 22px;
+	float: right;
+	display: block;
+	padding: 3px 0 0 23px;
+	color: #006231;
+	background: url(../img/iconcale.jpg) 0 0 no-repeat;
+}
+.noticia:hover a, .noticia:focus a{ text-decoration: underline;}
+.paginacao{
+	width: 235px;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+.paginacao li{ float: left; padding: 0 0 0 10px;}
+.paginacao li .bt-seta{
+	width: 10px;
+	height: 8px;
+	margin-top: 8px;
+}
+.paginacao li .bt-anterior{ background-image: url(../img/setaprev.jpg);}
+.paginacao li .bt-proximo{ background-image: url(../img/setanext.jpg);}
+.paginacao li .bt-pdr{
+	width: 29px;
+	height: 24px;
+	color: #006231;
+	font-size: 14px;
+	font-family: 'opens', sans-serif;
+	text-align: center;
+	padding: 5px 0 0 0;
+	background-image: url(../img/pag.jpg); 
+}
+.paginacao li a:hover.bt-pdr, .paginacao li a:focus.bt-pdr, .paginacao li a.ativo{ color: #FFF;}
+#content .icon-cale{
+	width: 175px;
+	height: 37px;
+	padding: 3px 0 0 25px;
+	font-size: 15px;
+	background: url(../img/iconcale.jpg) 0 0 no-repeat;
+}
 
+/* REPRESENTANTES */
+.bg-mapa{
+	width: 715px;
+	display: table;
+	background: url(../img/mapa.jpg) 50px 135px no-repeat;
+}
+.selecione{
+	width: 350px;
+	height: 225px;
+	padding: 115px 0 0 365px;
+}
+.selecione label{
+	font-size: 16px;
+	font-family: 'opens', sans-serif;
+	padding-bottom: 4px;
+}
+.selecione select{ width: 200px;}
+.box-padrao{
+	width: 715px;
+	padding-top: 12px;
+	border-top: 2px dotted #929393;
+}
+.box-padrao h2{
+	font-size: 16px;
+	padding-left: 8px;
+	background: url(../img/ballred.jpg) 0 6px no-repeat;
+}
+.borda{ border-bottom: 2px dotted #929393;}
+.txt-red{ color: #006231;}
+.pdg-top{ width: 715px; float: left; padding: 15px 0 18px 0;}
+#content .coluna{ width: 357px; float: left;}
+.representante{
+	width: 715px;
+	float: left;
+	margin-top: 20px;
+	padding-top: 15px;
+	border-top: 2px dotted #929393;
+}
+.representante h3{ padding: 3px 0 10px 30px; background: url(../img/star.jpg) 0 0 no-repeat;}
 
+/* CLIENTES */
+.nav-clientes{
+	width: 715px;
+	height: 75px;
+	float: left;
+}
+.nav-clientes li{
+	width: 142px;
+	height: 56px;
+	float: left;
+}
+.nav-clientes li a{
+	width: 142px;
+	height: 56px;
+	background-image: url(../img/navclientes.jpg); 
+}
+.nav-clientes li a.bt-reve{ background-position: 0 0;}
+.nav-clientes li a:hover.bt-reve, .nav-clientes li a:focus.bt-reve, .nav-clientes li.active a.bt-reve{ background-position: 0 -56px;}
+.nav-clientes li a.bt-inst{ background-position: -143px 0;}
+.nav-clientes li a:hover.bt-inst, .nav-clientes li a:focus.bt-inst, .nav-clientes li.active a.bt-inst{ background-position: -143px -56px;}
+.nav-clientes li a.bt-pref{ background-position: -286px 0;}
+.nav-clientes li a:hover.bt-pref, .nav-clientes li a:focus.bt-pref, .nav-clientes li.active a.bt-pref{ background-position: -286px -56px;}
+.nav-clientes li a.bt-conc{ background-position: -430px 0;}
+.nav-clientes li a:hover.bt-conc, .nav-clientes li a:focus.bt-conc, .nav-clientes li.active a.bt-conc{ background-position: -430px -56px;}
+.nav-clientes li a.bt-indu{ background-position: -574px 0;}
+.nav-clientes li a:hover.bt-indu, .nav-clientes li a:focus.bt-indu, .nav-clientes li.active a.bt-indu{ background-position: -574px -56px;}
 
+/* CONTATO */
+.formulario{
+	width: 650px;
+	float: left;
+	padding-bottom: 25px;
+}
+.formulario li{
+	width: 650px;
+	float: left;
+	padding-bottom: 10px;
+}
+.formulario li label{
+	width: 120px;
+	float: left;
+	padding: 2px 5px 0 0;
+	text-align: right;
+	font-size: 16px;
+	font-family: 'opens', sans-serif;
+}
+.formulario li input, .formulario li textarea, .formulario li select{
+	width: 513px;
+	height: 23px;
+	float: left;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border: 1px solid #b0afaf;
+	background-color: #f3f3f3;
+	padding: 0 5px 0 5px;
+	font-size: 16px;
+	font-family: 'opens', sans-serif;
+}
+.formulario li input:focus, .formulario li textarea:focus, .formulario li select:focus{ background-color: #e4e1e1; outline: none;}
+.formulario li select{ width: 525px; height: 25px;}
+.formulario li textarea{ height: 85px;}
+.formulario li .bt-enviar{
+	width: 102px;
+	height: 32px;
+	float: right;
+	border: none;
+	background: none;
+	padding: 0;
+}
+.formulario li span{ padding-left: 410px;}
+#content .font-small{ font-size: 18px;}
+.modal{
+	width: 715px;
+	height: 116px;
+	background-image: url(../img/btmapa.jpg); 
+}
+.trabalhe{
+	width: 565px;
+	height: 135px;
+	padding: 25px 0 0 150px;
+	background: url(../img/icontrabalhe.jpg) 0 0 no-repeat;
+}
+.trabalhe h3{ padding-bottom: 10px;}
+#mapaTeste{ display: none;}
+.mapaContent{
+	width: 550px;
+  	height: 320px;
+  	position: absolute;
+  	left: 30%;
+  	top: 10%;
+  	z-index: 99999999999;
+  	line-height: 18px;
+}
+.window{
+  	width: 550px;
+  	height: 320px;
+  	overflow: hidden;
+  	background-color: #FFF;
+  	border: 6px solid #999;
+  	padding-top: 30px;
+}
+.close{
+	width: 40px;
+	height: 40px;
+	background: url(../img/fechar.png) 0 0 no-repeat;
+	cursor: pointer;
+	position: absolute;
+	right: -25px;
+  	top: -20px;
+  	z-index: 999999999999;
+}
+#mask{
+	width: 100%;
+	height: 1100px;
+	background-color: #000;
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: 0.8;
+	z-index: 9999999999;
+}
+.resposta{
+	width: 718px;
+	height: 178px;
+	padding-top: 195px;
+	background: url(../img/sucesso.jpg) center 84px no-repeat;
+}
+.resposta p{
+	text-align: center;
+	font-size: 18px;
+	font-family: 'opens', sans-serif;
+}
 
-
-
+/* ERRO 404 */
+.bg-erro{
+	width: 407px;
+	height: 500px;
+	padding: 95px 280px 0 28px;
+	background: url(../img/bgerro.jpg) right top no-repeat;
+}
+#content .bg-erro h1{
+	font-style: italic;
+	font-size: 22px;
+	font-family: 'opens', sans-serif;
+} 
 
 /* FOOTER */
 .bg-rodape{
@@ -574,10 +869,7 @@ address{
 	background: url(../img/repume-iluminacao.jpg) 0 0 no-repeat;
 }
 div[itemprop="address"]{ padding-top: 10px;}
-footer ul{
-	width: 523px;
-	float: right;
-}
+footer ul{ width: 523px; float: right;}
 footer ul li{
 	height: 39px;
 	float: left;
