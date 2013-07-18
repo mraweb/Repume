@@ -110,7 +110,7 @@
             <img src="img/selo.jpg" alt="30 Anos Repume Iluminação" width="374" height="74" class="left selo-repume" />
 
             <section class="trabalhe-home">
-                <h3><a href="contato.php" title="Trabalhe Conosco" class="link">Trabalhe Conosco</a></h3>
+                <h3><a href="http://200.206.216.6:8092/pc/" title="Trabalhe Conosco" class="link" rel="external">Trabalhe Conosco</a></h3>
 
                 <p>Confira as últimas vagas</p>
             </section>

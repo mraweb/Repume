@@ -27,17 +27,15 @@
             <section id="quem-somos" class="tab_content">
                 <h1 class="acessibilidade">Quem Somos</h1>
 
-                <p>Em um mundo globalizado, as ações de compra e venda de bens e serviços são determinados principalmente pela relação custo-benefício, proporcionados por opções de qualidade.</p> 
+                <p>Em um mundo globalizado, a compra e venda de bens e serviços são determinadas principalmente pela relação custo-benefício, proporcionada por opções de qualidade.</p> 
 
-                <p>A Repume Iluminação dentro deste conceito assume o compromisso de melhoria contínua de seus produtos e serviços. Preocupada em aliar tecnologia, qualidade, design, arte e função, de acordo com as normas vigentes, como a ISO 9001:2008 demonstram a seriedade e a preocupação da empresa, evidenciando o seu know-how ao longo de sua trajetória em fabricação Luminárias, Postes e Reatores.</p>
+                <p>Dentro desta dinâmica, a Repume Iluminação assume o compromisso de oferecer sempre o melhor aos clientes, aprimorando continuamente seus produtos e serviços. A preocupação em oferecer produtos de alta qualidade, que reúnem tecnologia, qualidade, design e funcionalidade, demonstra a seriedade e credibilidade da empresa, evidenciando o seu know-how ao longo de sua trajetória na fabricação de Luminárias, Postes e Reatores.</p>
 
-                <p>A Repume possui um parque industrial de 15 mil m² de área construída, com disponibilidade de produção em grande escala, garantia única do conjunto, soluções eficientes, atendimento personalizado, e uma empresa ecologicamente correta, são marcas presentes em sua história.</p>
-
-                <p>Além disso, com seus 30 anos de experiência na área de iluminação, a Repume, tem como principal objetivo alcançar a tecnologia mantendo seu alto índice de qualidade em todos os seus produtos.</p>
+                <p>A Repume possui um parque industrial de 15 mil m² de área construída, com disponibilidade de produção em grande escala, garantia única do conjunto, soluções eficientes, atendimento personalizado e atuação ecologicamente responsável. Com 30 anos de experiência no mercado, oferece soluções diferenciadas e confiáveis, seguindo com rigor as normas e regulamentações para garantir qualidade e tranquilidade aos seus clientes.</p>
             </section><!-- FINAL QUEM SOMOS -->
 
             <div id="nossa-fabrica" class="tab_content">
-                <p>A Repume dispõe de uma estrutura moderna e um parque industrial de 15.000m2, as margens da Rodovia Régis Bittencourt no Município de Taboão da Serra SP, onde conta com tecnologias próprias e avançadas, laboratório altamente capacitado para realização de diversos tipos de ensaios, tais como:</p>
+                <p>A Repume dispõe de uma estrutura moderna e um parque industrial de 15 mil m2, às margens da Rodovia Régis Bittencourt no Município de Taboão da Serra SP. Conta com tecnologias próprias e avançadas e laboratório altamente capacitado para realização de diversos tipos de ensaios, como:</p>
 
                 <ul class="lista">
                     <li>Fotométrico, utilizando Goniômetro Robotizado</li>
@@ -51,7 +49,7 @@
                     <li>Resistência Mecânica (Flecha e Ruptura).</li>
                 </ul>
 
-                <p>Possui ainda um sistema de tratamento de superfície, permitindo assim atingir um melhor rendimento de seus refletores, além de uma estação de tratamento de efluentes, gases, vapores e pó, demonstrando assim toda a sua preocupação com o meio ambiente, e sua dedicação em sempre dispor das melhores soluções do mercado em seu segmento.</p>
+                <p>Possui ainda um sistema de tratamento de superfície, que permite atingir um melhor rendimento de seus refletores, além de uma estação de tratamento de efluentes, gases, vapores e pó, garantindo um processo de produção ecologicamente responsável e seguro. Tudo isso para oferecer a você produtos de qualidade e confiabilidade.</p>
 
                 <section class="galeria">
                     <h2>Galeria de Fotos</h2>

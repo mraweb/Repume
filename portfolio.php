@@ -21,16 +21,14 @@
         <div class="cont-right">
             <h1>Portfolio</h1>
 
-            <p>Com incrível know-how e centenas de projetos já desenvolvidos para os mais diversos segmentos do mercado, a Repume coloca à sua disposição alguns exemplos de obras realizadas pela empresa.</p>
-
-            <p><strong>Conheça nossos projetos e venha fazer parte de nossa história com uma incrível parceria!</strong></p>
+            <p>Com know-how e centenas de projetos já desenvolvidos para os mais diversos segmentos do mercado, a Repume coloca à sua disposição alguns exemplos de obras realizadas pela empresa. Conheça nossos projetos e venha fazer parte de nossa história com uma incrível parceria!</p>
 
             <div id="accordion">
                 <div>
                     <h2><a href="#">Linha Pública</a></h2>
                     
                     <div>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <p>Conheça os principais projetos da Repume com produtos da Linha Pública.</p>
                         
                         <ul class="gallery">
                             <li><a href="img/linha-publica/linha-publica-gd01.jpg" title="Linha Pública"><img src="img/linha-publica/linha-publica-pq01.jpg" width="114" height="114" alt="Linha Pública" /></a></li>
@@ -50,7 +48,7 @@
                     <h2><a href="#">Linha Industrial</a></h2>
                     
                     <div>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <p>Empresas de diversos segmentos já comprovaram a qualidade da Repume.</p>
                         
                         <ul class="gallery">
                             <li><a href="img/linha-industrial/linha-industrial-gd01.jpg" title="Linha Industrial"><img src="img/linha-industrial/linha-industrial-pq01.jpg" width="114" height="114" alt="Linha Industrial" /></a></li>
@@ -70,7 +68,7 @@
                     <h2><a href="#">Linha Decorativa</a></h2>
                     
                     <div>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <p>Conheça alguns projetos com opções da Linha Decorativa.</p>
                         
                         <ul class="gallery">
                             <li><a href="img/linha-decorativa/linha-decorativa-gd01.jpg" title="Linha Decorativa"><img src="img/linha-decorativa/linha-decorativa-pq01.jpg" width="114" height="114" alt="Linha Decorativa" /></a></li>
@@ -100,7 +98,7 @@
                     <h2><a href="#">Linha Específica</a></h2>
                     
                     <div>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <p>Na Repume você também encontra produtos para projetos específicos. Confira!</p>
                         
                         <ul class="gallery">
                             <li><a href="img/linha-especifica/linha-especifica-gd01.jpg" title="Linha Específica"><img src="img/linha-especifica/linha-especifica-pq01.jpg" width="114" height="114" alt="Linha Específica" /></a></li>

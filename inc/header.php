@@ -33,7 +33,7 @@
                     </ul>
                 </li>
 
-                <li><a href="portfolio.php" title="Portolio" <?php if($url == "portfolio.php"){echo "class='ativo'";} ?>>Portolio</a></li>
+                <li><a href="portfolio.php" title="Portfolio" <?php if($url == "portfolio.php"){echo "class='ativo'";} ?>>Portfolio</a></li>
 
                 <li><a href="noticias.php" title="Notícias" <?php if($url == "noticias.php" or $url == "noticia-interna.php"){echo "class='ativo'";} ?>>Notícias</a></li>
 

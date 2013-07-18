@@ -22,15 +22,13 @@
 
             <a href="javascript:history.back(-1);" title="Voltar" class="hidetxt">Voltar</a>
 
-            <p>A linha de produtos Repume é composta por incríveis produtos para área de iluminação, e é composta principalmente pelas linhas Iluminação, Postes, Reatores, Mastros e Acessórios em geral.</p> 
+            <p>Com uma ampla variedade de produtos, a Repume oferece opções diferenciadas e de alta qualidade nas linhas de Iluminação, Postes, Reatores, Mastros e Acessórios em geral.</p>
 
-            <p>Nestas linhas de produtos você encontra opções que foram desenvolvidas exclusivamente para diversos mercados, que objetivam sempre os melhores resultados em iluminação. Sempre levando em consideração a qualidade, durabilidade e custo-benefício de todos os produtos oferecidos.</p>
+            <p>Com soluções específicas para os mais diversos segmentos, garante sempre os melhores resultados em iluminação, que aliam alta qualidade, durabilidade e excelente custo-benefício.</p> 
 
-            <p>Além disso, estes equipamentos são produzidos com tecnologia de ponta, proporcionando alto padrão e desempenho, bem como, garantia de resultados precisos e eficazes, que só a Repume pode oferecer. Vale ressaltar que todos os produtos são certificados e produzidos segundo todas as normas de fabricação do mercado.</p>
+            <p>Além disso, estes equipamentos são produzidos com tecnologia de ponta, proporcionando alto padrão e desempenho, bem como garantia de resultados precisos e eficazes que só a Repume pode oferecer. Além de modernos e eficientes, todos os produtos são certificados e produzidos segundo as normas de fabricação do mercado.</p>
 
-            <p>A Repume também possui know-how para planejar e produzir projetos que se destacam pela riqueza dos detalhes e um design diferenciado e personalizado.</p>
-
-            <p><strong>Confira no menu todas as opções e garanta alto padrão e avanço tecnológico em iluminação.</strong></p>
+            <p>A Repume também possui know-how para planejar e produzir projetos que se destacam pela riqueza dos detalhes e design diferenciado e personalizado. Confira no menu todas as opções e garanta alto padrão e tecnologia em iluminação.</p>
 
             <ul class="lista-produtos">
                 <li>

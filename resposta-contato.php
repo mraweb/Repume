@@ -70,7 +70,8 @@ require_once('phpmailer/class.phpmailer.php');
             <div class="trabalhe">
                 <h3 class="font-small">Trabalhe Conosco</h3>
 
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                <p>Fique por dentro de nossas oportunidades! Acesse o portal de vagas, envie seu currículo e aguarde o breve contato de nossa equipe de seleção.<br />
+                Link Trabalhe Conosco: <a href="http://200.206.216.6:8092/pc/" title="Trabalhe Conosco" class="link" rel="external">http://200.206.216.6:8092/pc/</a></p>
             </div>
         </div><!-- FINAL CONT-RIGHT -->
 

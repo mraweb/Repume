@@ -128,8 +128,8 @@ header .tel span{ font-size: 13px;}
 #navMenu li a.ativo[title="Produtos"],
 #navMenu li a.current-menu[title="Produtos"]{
 	color: #ececec; background-position: -164px -32px;}
-#navMenu li a[title="Portolio"]{ width: 87px; background-position: -255px 0;}
-#navMenu li a:hover[title="Portolio"], #navMenu li a:focus[title="Portolio"], #navMenu li a.ativo[title="Portolio"]{ color: #ececec; background-position: -255px -32px;}
+#navMenu li a[title="Portfolio"]{ width: 87px; background-position: -255px 0;}
+#navMenu li a:hover[title="Portfolio"], #navMenu li a:focus[title="Portfolio"], #navMenu li a.ativo[title="Portolio"]{ color: #ececec; background-position: -255px -32px;}
 #navMenu li a[title="Notícias"]{ width: 82px; background-position: -346px 0;}
 #navMenu li a:hover[title="Notícias"], #navMenu li a:focus[title="Notícias"], #navMenu li a.ativo[title="Notícias"]{ color: #ececec; background-position: -346px -32px;}
 #navMenu li a[title="Representantes"]{ width: 132px; background-position: -432px 0;}
